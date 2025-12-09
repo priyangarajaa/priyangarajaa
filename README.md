@@ -90,20 +90,12 @@
 
 ##  DSA & Problem Solving Achievements
 
-###  **1207+ Problems Solved Across Platforms**
+###  **450+ Problems Solved Across Platforms**
 
-| Platform | Problems Solved | Max Rating |
-|----------|----------------|------------|
-| **LeetCode** | 300+ | Knight Rank |
-| **CodeChef** | 567 | 1601 |
-| **CodeForces** | 136 | 969 |
-| **GeeksForGeeks** | 65+ | - |
-
-###  **Hackathon Achievements**
-- **1st Place** - CodeSmash (Inter-college DSA Hackathon)
-- 🥈 **Runner-Up** - 24-hour National Hackathon at AMC Engineering College, Bengaluru
-
----
+| Platform | Problems Solved |
+|----------|----------------|
+| **LeetCode** | 20 |
+| **CodeChef** | 430 |
 
 ##  GitHub Analytics
 
@@ -149,9 +141,7 @@
 ---
 
 ##  Currently Learning  
-- Advanced React patterns and state management
-- Backend integration with Firebase & MongoDB
-- Advanced Data Structures & Algorithms
+
 - Problem Solving techniques and optimization
 - Full-Stack Development best practices
 
@@ -159,7 +149,7 @@
 
 ##  Connect with Me  
 <p align="left">
-  <a href="https://github.com/sabariyuhendh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/priyangarajaa"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/sabariyuhendhran/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:sabariyuhendhran@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>  
