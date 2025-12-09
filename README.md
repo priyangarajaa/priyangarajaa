@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Priyanga%20Raja&section=header&reversal=false&textBg=false&fontSize=100&fontAlign=50&fontAlignY=41&animation=twinkling&rotate=0&fontColor=35648&desc=Java%20Developer%20|%20Frontend%20Developer&descSize=30&descAlignY=67&descAlign=50"alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Priyanga%20Raja&section=header&reversal=false&textBg=false&fontSize=100&fontAlign=50&fontAlignY=41&animation=twinkling&rotate=0&fontColor=35648&desc=Java%20Developer%20|%20Frontend%20Developer&descSize=30&descAlignY=67&descAlign=50">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=+Passionate+Full-Stack+Developer;🚀+Building+Modern+Web+Applications;+DSA+%26+Problem+Solving+Enthusiast;+Always+Learning+New+Technologies" alt="Typing SVG" />
 
