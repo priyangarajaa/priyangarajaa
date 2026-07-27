@@ -90,12 +90,12 @@
 
 ##  DSA & Problem Solving Achievements
 
-###  **450+ Problems Solved Across Platforms**
+###  **650+ Problems Solved Across Platforms**
 
 | Platform | Problems Solved |
 |----------|----------------|
-| **LeetCode** | 20 |
-| **CodeChef** | 430 |
+| **LeetCode** | 157 |
+| **CodeChef** | 511 |
 
 ##  GitHub Analytics
 
