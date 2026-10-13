@@ -1,1049 +1,208 @@
-Build a complete, polished, fully interactive frontend prototype for my Phase 2 college project.
+<div align="center">
 
-PROJECT TITLE:
-“AI-Powered Continuous Cyber Risk Quantification and Investment Optimization Platform”
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:a8d8ff,100:5ebcff&text=Priyanga%20R&section=header&fontSize=80&fontAlign=50&fontAlignY=40&animation=twinkling&fontColor=1F3A5F&desc=B.Tech%20CSBS%20Student%20%7C%20Java%20%26%20Full-Stack%20Developer&descSize=24&descAlignY=65&descAlign=50" alt="Priyanga R banner" />
 
-IMPORTANT:
-This is ONLY a frontend prototype for Phase 2 review.
-DO NOT create or require any backend, database server, API server, authentication server, cloud service, or external API.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=5EBCFF&center=true&vCenter=true&width=600&lines=Java+%7C+Spring+Boot+%7C+MySQL;Full-Stack+Development;Problem+Solving+%26+Competitive+Programming" alt="Typing SVG" /></a>
 
-The application must work completely in the browser using realistic MOCK DATA and local frontend state.
+<br>
 
-The UI should look like a real enterprise cybersecurity product, not like a basic student dashboard.
+![Profile Views](https://komarev.com/ghpvc/?username=priyangarajaa&color=5EBCFF&style=for-the-badge&label=Profile+Views)
+![GitHub followers](https://img.shields.io/github/followers/priyangarajaa?style=for-the-badge&logo=github&color=5EBCFF&labelColor=000000)
+![GitHub stars](https://img.shields.io/github/stars/priyangarajaa?style=for-the-badge&logo=github&color=5EBCFF&labelColor=000000)
 
-==================================================
-1. CORE PROJECT PURPOSE
-==================================================
-
-The platform helps a company answer two questions:
-
-1. “How much money could cyberattacks potentially cost us?”
-2. “If we have a limited security budget, where should we spend it to reduce the most expected loss?”
-
-The system should visually demonstrate this workflow:
-
-Security Data
-→ AI/ML Analysis
-→ Risk Quantification
-→ Financial Risk
-→ Security Investment Optimization
-→ Recommended Actions
-→ Continuous Risk Monitoring
-
-Use these concepts throughout the UI:
-
-- Vulnerabilities
-- Threats
-- Assets
-- Exploit likelihood
-- Expected annual loss
-- Loss magnitude
-- FAIR-style risk calculation
-- Monte Carlo simulation
-- Security controls
-- Budget optimization
-- ROSI
-- Risk reduction
-- Continuous monitoring
-
-Do NOT claim that real AI models or real cybersecurity feeds are connected.
-Clearly use realistic simulated/demo data.
-
-==================================================
-2. TECH STACK
-==================================================
-
-Use:
-
-- React
-- TypeScript
-- Tailwind CSS
-- Recharts or another suitable charting library
-- Lucide React icons
-
-Keep the project clean and component-based.
-
-No backend.
-
-Use local mock JSON/data objects and React state.
-
-==================================================
-3. OVERALL DESIGN
-==================================================
-
-Create a premium cybersecurity/SOC-style interface.
-
-Design language:
-
-- Dark enterprise cybersecurity theme
-- Deep navy / charcoal background
-- Subtle blue/cyan accent colors
-- Red/orange only for danger/warning states
-- Glass-like cards where appropriate
-- Clean spacing
-- Thin borders
-- Soft shadows
-- Professional typography
-- Minimal animations
-- No excessive gradients
-- No cartoonish elements
-- No unnecessary illustrations
-
-The interface should feel similar to a professional:
-
-Cyber Risk Management Platform
-Security Operations Dashboard
-Enterprise Risk Analytics System
-
-It should NOT look like:
-
-- A gaming dashboard
-- A crypto dashboard
-- A generic admin template
-- A simple college project
-
-Make it visually impressive enough for a Phase 2 project review.
-
-==================================================
-4. APPLICATION STRUCTURE
-==================================================
-
-Create a left sidebar navigation.
-
-Sidebar:
-
-Logo:
-“CYBERIQ”
-
-Subtitle:
-“Continuous Risk Intelligence”
-
-Navigation:
-
-• Overview
-• Risk Quantification
-• Threat Intelligence
-• Assets
-• Security Controls
-• Investment Optimizer
-• Monte Carlo
-• What-If Analysis
-• Recommendations
-
-Bottom sidebar:
-
-System Status
-● Monitoring Active
-
-Main top bar:
-
-Page title
-Search
-Last updated time
-“Refresh Analysis” button
-Notification icon
-Profile/demo user
-
-==================================================
-5. OVERVIEW DASHBOARD
-==================================================
-
-This is the main landing page.
-
-Header:
-
-“Cyber Risk Command Center”
-
-Subtitle:
-
-“Continuous financial quantification and security investment intelligence”
-
-Top KPI cards:
-
-1. Current Expected Annual Loss
-₹1.15 Cr
-
-2. 95% VaR
-₹3.10 Cr
-
-3. Active Critical Risks
-7
-
-4. Security Budget
-₹30 Lakh
-
-5. Potential Risk Reduction
-₹60 Lakh
-
-Each KPI should have:
-
-- Large value
-- Small descriptive text
-- Trend indicator
-- Appropriate icon
-
-Example:
-
-Expected Annual Loss
-₹1.15 Cr
-↓ 18.4% from previous analysis
-
-==================================================
-6. RISK TREND CHART
-==================================================
-
-Create an interactive line/area chart.
-
-Title:
-
-“Expected Annual Loss — 30 Day Trend”
-
-X axis:
-Days
-
-Y axis:
-₹ Loss
-
-Use realistic mock values.
-
-Allow hover tooltips.
-
-Include a small indicator:
-
-“Risk decreasing”
-
-==================================================
-7. RISK BREAKDOWN
-==================================================
-
-Create a chart showing expected loss by threat.
-
-Threats:
-
-Ransomware
-Data Breach
-Phishing
-Credential Theft
-Insider Threat
-DDoS
-
-Example values:
-
-Ransomware → ₹60L
-Data Breach → ₹45L
-Phishing → ₹10L
-Credential Theft → ₹18L
-Insider Threat → ₹12L
-DDoS → ₹8L
-
-Use a professional bar chart.
-
-==================================================
-8. TOP CYBER RISKS
-==================================================
-
-Create a table/card section:
-
-“Top Risks Requiring Attention”
-
-Columns:
-
-Risk
-Asset
-Likelihood
-Potential Loss
-Expected Loss
-Severity
-Action
-
-Example:
-
-Ransomware
-Customer Database
-30%
-₹2.0 Cr
-₹60 L
-Critical
-View
-
-Critical Web Vulnerability
-Public Web Server
-24%
-₹1.4 Cr
-₹33.6 L
-Critical
-Patch
-
-Phishing
-Employee Accounts
-50%
-₹20 L
-₹10 L
-High
-Mitigate
-
-Each “View” button must work and open a detailed risk modal.
-
-==================================================
-9. RISK QUANTIFICATION PAGE
-==================================================
-
-Create a dedicated page explaining the financial risk calculation visually.
-
-Header:
-
-“Risk Quantification Engine”
-
-Show:
-
-Likelihood × Loss Magnitude
-=
-Expected Annual Loss
-
-Example:
-
-Ransomware
-
-Annual Frequency:
-0.30
-
-Loss Magnitude:
-₹2.0 Cr
-
-Expected Annual Loss:
-₹60 L
-
-Make this visually clear.
-
-Add a section:
-
-“FAIR Risk Model”
-
-Show:
-
-Loss Event Frequency
-↓
-Threat Event Frequency
-↓
-Vulnerability
-↓
-Loss Event
-↓
-Loss Magnitude
-
-Use a clean visual flow.
-
-==================================================
-10. MONTE CARLO SIMULATION PAGE
-==================================================
-
-Create a professional simulation page.
-
-Title:
-
-“Monte Carlo Risk Simulation”
-
-Subtitle:
-
-“10,000 simulated scenarios”
-
-Display:
-
-Average Annual Loss
-₹68 L
-
-95% VaR
-₹3.10 Cr
-
-Maximum Simulated Loss
-₹5.02 Cr
-
-Create a histogram/distribution chart.
-
-X axis:
-Annual Loss
-
-Y axis:
-Number of Scenarios
-
-Add a vertical marker for:
-
-95% VaR
-
-Add a button:
-
-“Run Simulation”
-
-When clicked:
-
-- Show a short loading animation
-- Change simulation status to “Completed”
-- Slightly vary mock values
-- Update chart
-- Show toast notification:
-“Simulation completed successfully”
-
-This must be frontend-only.
-
-==================================================
-11. THREAT INTELLIGENCE PAGE
-==================================================
-
-Create a page showing simulated threat intelligence.
-
-Cards:
-
-Critical Vulnerabilities
-Active Exploits
-Threat Events
-Newly Detected Risks
-
-Create a vulnerability table:
-
-CVE ID
-Asset
-CVSS
-EPSS
-Exploit Status
-Risk
-Action
-
-Example:
-
-CVE-2026-XXXX
-Public Web Server
-9.8
-0.91
-Known Exploited
-Critical
-Patch Now
-
-CVE-2026-YYYY
-Employee Laptop
-8.6
-0.72
-High Probability
-High
-Review
-
-When clicking a vulnerability, open a detail modal.
-
-==================================================
-12. ASSET INVENTORY PAGE
-==================================================
-
-Create an enterprise asset table.
-
-Assets:
-
-Customer Database
-Public Web Server
-Employee Laptops
-Internal API
-File Server
-Cloud Storage
-
-Columns:
-
-Asset
-Type
-Criticality
-Exposure
-Current Risk
-Owner
-Status
-
-Use status badges:
-
-Protected
-At Risk
-Critical
-
-Clicking an asset should open an asset detail drawer/modal.
-
-==================================================
-13. SECURITY CONTROLS PAGE
-==================================================
-
-Show available security controls.
-
-Controls:
-
-MFA
-EDR
-Immutable Backups
-Security Awareness Training
-Database Encryption
-Network Segmentation
-Web Application Firewall
-
-Each control card should show:
-
-Control name
-Cost
-Expected risk reduction
-Implementation difficulty
-Coverage
-ROSI
-
-Example:
-
-MFA
-
-Cost:
-₹10 L
-
-Expected Risk Reduction:
-₹28 L
-
-ROSI:
-180%
-
-Button:
-“Add to Plan”
-
-Clicking it should add/remove the control from the investment plan.
-
-==================================================
-14. INVESTMENT OPTIMIZER PAGE
-==================================================
-
-This is one of the MOST IMPORTANT pages.
-
-Make this page visually impressive.
-
-Header:
-
-“Security Investment Optimizer”
-
-Show:
-
-Available Budget
-
-₹30 L
-
-Current Expected Loss
-
-₹1.15 Cr
-
-Optimized Expected Loss
-
-₹55 L
-
-Potential Loss Avoided
-
-₹60 L
-
-Create a budget slider.
-
-Example:
-
-Budget:
-₹30 L
-
-Allow user to move the slider between:
-
-₹5 L → ₹1 Cr
-
-When the budget changes, update the recommended controls and estimated risk reduction using frontend calculations/mock logic.
-
-Show:
-
-“Recommended Investment Plan”
-
-Rank controls by optimization score.
-
-Example:
-
-1. MFA
-₹10 L
-Risk Reduction: ₹28 L
-ROSI: 180%
-
-2. Immutable Backups
-₹8 L
-Risk Reduction: ₹22 L
-ROSI: 175%
-
-3. Security Training
-₹5 L
-Risk Reduction: ₹10 L
-ROSI: 100%
-
-4. EDR
-₹15 L
-Risk Reduction: ₹25 L
-ROSI: 67%
-
-Include checkboxes/toggles for controls.
-
-Show a comparison:
-
-BEFORE
-Expected Loss:
-₹1.15 Cr
-
-AFTER
-Expected Loss:
-₹55 L
-
-Risk Reduction:
-52.2%
-
-Create a before-vs-after bar chart.
-
-==================================================
-15. WHAT-IF ANALYSIS PAGE
-==================================================
-
-Create an interactive scenario simulator.
-
-Title:
-
-“What-If Security Investment Analysis”
-
-Allow the user to select controls.
-
-Example:
-
-☑ MFA
-☑ Immutable Backups
-☐ EDR
-☑ Security Training
-☐ Database Encryption
-
-Show dynamically:
-
-Investment:
-₹23 L
-
-Expected Loss Before:
-₹1.15 Cr
-
-Expected Loss After:
-₹62 L
-
-Loss Avoided:
-₹53 L
-
-ROSI:
-130%
-
-Add button:
-
-“Apply Scenario”
-
-When clicked, update the scenario summary and show:
-
-“Scenario saved for review”
-
-==================================================
-16. RECOMMENDATIONS PAGE
-==================================================
-
-Create an AI-style recommendation center.
-
-IMPORTANT:
-Do not falsely claim that a real AI model is running.
-
-Label the section:
-
-“AI-Assisted Risk Recommendations”
-
-Cards:
-
-🔴 Critical
-
-“Patch the public-facing vulnerability”
-
-Reason:
-High exploit probability combined with high asset exposure.
-
-Estimated Loss Avoided:
-₹33.6 L
-
-Priority:
-Immediate
+</div>
 
 ---
 
-🟠 High
+## 👋 About Me
 
-“Enable MFA for privileged accounts”
+Computer Science & Business Systems undergraduate at **KIT – Kalaignar Karunanidhi Institute of Technology, Coimbatore**, with a **9.17 / 10.0 CGPA**. I build **full-stack applications** with **Java, Spring Boot and MySQL**, and strengthen my problem-solving through **competitive programming** and **hackathons**.
 
-Estimated Cost:
-₹10 L
-
-Expected Loss Reduction:
-₹28 L
-
-ROSI:
-180%
+📍 Coimbatore, India  
+🎓 B.Tech CSBS (2024 – 2028), II Year  
+📚 Coursework: Full Stack Development, Data Structures & Algorithms, Operating Systems, DBMS
 
 ---
 
-🟡 Medium
+## 🛠️ Technical Skills
+
+<table align="center" width="100%">
+  <tr>
+    <th align="left">Languages</th>
+    <td>
+      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Web Technologies</th>
+    <td>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Frameworks & Tools</th>
+    <td>
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <th align="left">Key Skills</th>
+    <td>Object-Oriented Programming • Problem Solving • Full-Stack Development</td>
+  </tr>
+  <tr>
+    <th align="left">Soft Skills</th>
+    <td>Problem Solving • Quick Learning • Self-Motivation • Time Management • Adaptability • Communication</td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Projects
+
+<table align="center" width="100%">
+  <tr>
+    <th align="left" width="22%">Project</th>
+    <th align="left">Highlights</th>
+    <th align="left" width="26%">Tech Stack</th>
+  </tr>
+  <tr>
+    <td><b>P-KART</b><br><i>E-commerce Website</i></td>
+    <td>
+      • Full-stack e-commerce app on Spring Boot with layered architecture<br>
+      • Product management, user authentication and order processing<br>
+      • MySQL for persistence and CRUD operations<br>
+      • Storefront UI covering browsing, cart and checkout flows
+    </td>
+    <td>Java • Spring Boot • Maven • HTML • CSS • JavaScript • MySQL</td>
+  </tr>
+  <tr>
+    <td><b>AURA GUARD</b><br><i>Elderly Safety Monitoring System</i></td>
+    <td>
+      • Responsive web dashboard with secure login and role-based access<br>
+      • Simulated heart-rate monitoring and fall-detection alerts<br>
+      • Planned IoT architecture: C1001 sensor → ESP32 → backend API → database → live dashboard
+    </td>
+    <td>React.js • HTML • CSS • JavaScript • ESP32 (planned) • IoT • REST API</td>
+  </tr>
+  <tr>
+    <td><b>TODO List Application</b><br><i>Sep 2025</i></td>
+    <td>
+      • Minimalistic desktop UI built with Swing<br>
+      • Create, update and track daily tasks<br>
+      • JDBC connection to MySQL for persistent task data across sessions
+    </td>
+    <td>Java • Maven • Swing • MySQL • JDBC</td>
+  </tr>
+</table>
+
+---
+
+## 🏆 Hackathons & Contests
+
+<table align="center" width="100%">
+  <tr>
+    <th align="left" width="22%">Event</th>
+    <th align="left">Highlights</th>
+  </tr>
+  <tr>
+    <td><b>ZeroVault</b><br><i>Sprintathon Hackathon (PS26SHC022)</i></td>
+    <td>
+      Medication adherence & drug interaction checker, built in a three-member team.<br>
+      • Contributed to a <b>Next.js Progressive Web App</b> backed by <b>Firebase</b><br>
+      • Integrated <b>OCR</b> and the <b>RxNorm / RxNav APIs</b> for drug-interaction lookups
+    </td>
+  </tr>
+  <tr>
+    <td><b>LMS Portal</b><br><i>Buildathon Hackathon</i></td>
+    <td>
+      Designed and built a Learning Management System portal in a team within a fixed-duration build event.<br>
+      • 🥇 Placed <b>36th out of 200 teams</b>
+    </td>
+  </tr>
+</table>
 
-“Conduct security awareness training”
+Also participated in coding competitions and online challenge-based events focused on problem solving and applied algorithms in time-bound environments.
 
-Estimated Cost:
-₹5 L
+---
 
-Expected Loss Reduction:
-₹10 L
+## 💻 Competitive Programming
 
-Each recommendation should have:
+<table align="center" width="100%">
+  <tr>
+    <th align="left">Platform</th>
+    <th align="left">Max Rating</th>
+    <th align="left">Problems Solved</th>
+    <th align="left">Notes</th>
+  </tr>
+  <tr>
+    <td><b>LeetCode</b></td>
+    <td>1816</td>
+    <td>180+</td>
+    <td>—</td>
+  </tr>
+  <tr>
+    <td><b>CodeChef</b></td>
+    <td>1516</td>
+    <td>456</td>
+    <td>2 Star</td>
+  </tr>
+</table>
 
-View Details
-Accept
-Dismiss
+---
 
-Buttons must work.
+## 🎓 Education
 
-==================================================
-17. CONTINUOUS MONITORING
-==================================================
+| Institution | Programme | Period | Score |
+|-------------|-----------|--------|-------|
+| **KIT – Kalaignar Karunanidhi Institute of Technology**, Coimbatore | B.Tech, Computer Science & Business Systems (II Year) | 2024 – 2028 | CGPA 9.17 / 10.0 |
+| **Vivekananda Vidhyalaya Matriculation Higher Secondary School**, Tirupur | Class 12 | 2023 – 2024 | 89.1% |
+| **Vivekananda Vidhyalaya Matriculation Higher Secondary School**, Tirupur | Class 10 | 2021 – 2022 | 92.8% |
 
-Create a visible system status component.
+---
 
-Example:
+## 📜 Certifications & Courses
 
-● Continuous Monitoring Active
+- **NPTEL** – Programming in Java (Score: 70%) · 2025
+- **Infosys Springboard** – Java 11 Essentials · 2025
+- **CISCO** – Python Essentials 1 & 2 · 2025
 
-Last Analysis:
-2 minutes ago
+---
 
-Next Analysis:
-In 8 minutes
+## 🤝 Collaboration & Professional Growth
 
-Data Sources:
-6
+- Engaged in peer learning and knowledge sharing during coursework and training sessions
+- Demonstrated consistency and discipline through long-term, self-driven technical practice
+- Worked in cross-functional hackathon teams on ZeroVault and the LMS Buildathon, coordinating tasks under tight deadlines to deliver working solutions
 
-Risk Engine:
-Operational
+---
 
-Optimizer:
-Ready
+## 📊 GitHub Analytics
 
-Create a “Refresh Analysis” button.
+<div align="center">
 
-When clicked:
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=priyangarajaa&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0D1117&title_color=5EBCFF&text_color=FFFFFF&icon_color=5EBCFF&ring_color=5EBCFF" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=priyangarajaa&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=5EBCFF&text_color=FFFFFF" alt="Top Languages" />
 
-1. Show loading state.
-2. Update “Last Analysis”.
-3. Slightly modify demo risk values.
-4. Update dashboard cards/charts.
-5. Show toast:
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=priyangarajaa&theme=dark&hide_border=true&background=0D1117&stroke=5EBCFF&ring=5EBCFF&fire=5EBCFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=5EBCFF&sideLabels=5EBCFF&dates=FFFFFF" alt="GitHub Streak" />
 
-“Risk analysis refreshed successfully”
+</div>
 
-==================================================
-18. NOTIFICATION SYSTEM
-==================================================
+---
 
-Create functional notifications.
+## 📫 Connect With Me
 
-Example:
+<p align="center">
+  <a href="https://github.com/priyangarajaa"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/priyanka-raja-064649339/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:kit24.28bcb041@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-“Critical vulnerability detected”
-“Risk increased by ₹12 L”
-“Optimization recommendation updated”
-“Monte Carlo simulation completed”
-
-Clicking the notification icon should open a notification panel.
-
-==================================================
-19. GLOBAL SEARCH
-==================================================
-
-Add a search box in the top navigation.
-
-Search across:
-
-- Assets
-- Vulnerabilities
-- Risks
-- Security Controls
-- Recommendations
-
-Show matching results in a dropdown.
-
-==================================================
-20. MODALS / DRAWERS
-==================================================
-
-Use reusable modal/drawer components.
-
-Required:
-
-Risk Details Modal
-Asset Details Modal
-Vulnerability Details Modal
-Control Details Modal
-Recommendation Details Modal
-
-Do not navigate to unnecessary pages for every small detail.
-
-==================================================
-21. INTERACTION REQUIREMENTS
-==================================================
-
-THIS IS VERY IMPORTANT.
-
-The UI must actually work.
-
-Do not create static screenshots disguised as a dashboard.
-
-Functional interactions should include:
-
-- Sidebar navigation
-- Page switching
-- Search
-- Refresh Analysis
-- Run Monte Carlo
-- Budget slider
-- Control selection
-- Investment plan updates
-- What-if analysis
-- Risk detail modal
-- Asset detail modal
-- Vulnerability detail modal
-- Recommendation accept/dismiss
-- Notifications
-- Tooltips
-- Charts
-- Tabs
-- Toggle buttons
-- Toast messages
-
-Every button should either perform a meaningful frontend action or be intentionally disabled with a clear reason.
-
-No dead buttons.
-
-==================================================
-22. DEMO DATA
-==================================================
-
-Use a consistent fictional company.
-
-Company name:
-
-“NovaCore Technologies”
-
-Assets:
-
-Customer Database
-Public Web Server
-Employee Laptops
-Internal API
-File Server
-Cloud Storage
-
-Threats:
-
-Ransomware
-Data Breach
-Phishing
-Credential Theft
-Insider Threat
-DDoS
-
-Initial financial risk:
-
-Expected Annual Loss:
-₹1.15 Cr
-
-95% VaR:
-₹3.10 Cr
-
-Budget:
-₹30 Lakh
-
-Optimized Expected Loss:
-₹55 Lakh
-
-Keep all numbers internally consistent across pages.
-
-==================================================
-23. CURRENCY
-==================================================
-
-Use Indian Rupees.
-
-Display naturally:
-
-₹1.15 Cr
-₹60 L
-₹30 L
-₹10 L
-
-Do not use dollars.
-
-==================================================
-24. RESPONSIVE DESIGN
-==================================================
-
-The application must work properly on:
-
-Desktop
-Laptop
-Tablet
-
-Primary target is a desktop/laptop presentation screen.
-
-Make charts and tables readable.
-
-==================================================
-25. PRESENTATION MODE
-==================================================
-
-Add a small “Presentation Mode” button.
-
-When enabled:
-
-- Hide unnecessary navigation clutter
-- Expand dashboard
-- Increase important KPI visibility
-- Make charts larger
-- Keep the interface clean for projector/demo use
-
-==================================================
-26. LOADING / EMPTY / ERROR STATES
-==================================================
-
-Create polished states for:
-
-Loading analysis
-Simulation running
-No search results
-No notifications
-Action completed
-
-Use skeleton loaders and subtle animations.
-
-==================================================
-27. UI QUALITY REQUIREMENTS
-==================================================
-
-Prioritize:
-
-1. Professional visual hierarchy
-2. Consistent spacing
-3. Consistent typography
-4. Clear charts
-5. Readable numbers
-6. Meaningful interactions
-7. Smooth but subtle animations
-8. Responsive layout
-9. Consistent mock data
-10. Realistic cybersecurity terminology
-
-Avoid:
-
-- Huge unnecessary headings
-- Excessive rounded cards
-- Excessive gradients
-- Random icons
-- Fake 3D graphics
-- Overloaded screens
-- Long paragraphs
-- Lorem ipsum
-- Generic dashboard filler text
-
-==================================================
-28. IMPORTANT PROJECT FLOW
-==================================================
-
-The UI must make this complete story obvious:
-
-DATA
-↓
-AI / ML ANALYSIS
-↓
-RISK QUANTIFICATION
-↓
-MONTE CARLO
-↓
-FINANCIAL RISK
-↓
-SECURITY CONTROLS
-↓
-INVESTMENT OPTIMIZATION
-↓
-RECOMMENDATIONS
-↓
-SECURITY TEAM ACTION
-↓
-CONTINUOUS REFRESH
-
-Create a visual “Risk Intelligence Pipeline” component on the Overview page showing this flow.
-
-==================================================
-29. DEMO SCENARIO
-==================================================
-
-Build the UI around this scenario:
-
-Company:
-NovaCore Technologies
-
-Current Expected Annual Loss:
-₹1.15 Cr
-
-Top Risk:
-Ransomware
-
-Likelihood:
-30%
-
-Potential Loss:
-₹2 Cr
-
-Expected Loss:
-₹60 L
-
-Available Security Budget:
-₹30 L
-
-The optimizer evaluates:
-
-MFA — ₹10 L
-Immutable Backups — ₹8 L
-Security Training — ₹5 L
-EDR — ₹15 L
-Database Encryption — ₹12 L
-
-The recommended plan should demonstrate that a limited ₹30 L budget can reduce expected loss significantly.
-
-Make the numbers believable and consistent.
-
-==================================================
-30. FINAL REQUIREMENT
-==================================================
-
-Generate the complete working frontend application.
-
-Do not stop at generating a visual mockup.
-
-Create:
-
-- All React components
-- All pages
-- Navigation
-- Mock data
-- Charts
-- State management
-- Modals
-- Interactions
-- Animations
-- Responsive layout
-
-Everything should run locally without a backend.
-
-The final result should feel like a real enterprise product called:
-
-“CYBERIQ — Continuous Cyber Risk Intelligence”
-
-It should be impressive enough for a 3rd-year engineering Phase 2 project review and easy for me to demonstrate live to faculty evaluators.
-
-Before finishing, verify that there are NO dead buttons, NO broken navigation links, NO undefined data, and NO backend/API dependency.
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:a8d8ff,100:5ebcff&section=footer" width="100%" alt="footer" />
